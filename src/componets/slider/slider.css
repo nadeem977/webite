@@ -1,0 +1,35 @@
+.product-container{
+padding: 0 10px ;
+display: flex;
+overflow-x: hidden;
+scroll-behavior: smooth;
+gap:5%;
+}
+.product-carousel{
+    position: relative;
+    overflow: hidden;
+    width:100%;
+
+}
+.butns-div{
+width: 100%;
+justify-content: flex-end;
+display: flex;
+}
+.btns{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin: 10px;
+}
+.btns .bi{
+    font-weight: 800;
+    font-size: 20px;
+}
+@media (max-width:1500px) {
+    .product-container{
+        gap:0%;
+        }
+}

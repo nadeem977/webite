@@ -1,0 +1,90 @@
+.navbar-expand-lg .navbar-collapse{
+    justify-content: flex-end;
+ 
+}
+.navbar{
+z-index: 100;
+position: relative;
+}
+.navbar-nav{
+    gap: 20px;
+}
+.navbar-nav a{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    display: flex;
+}
+.login{
+    padding: 3px 20px ;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.navbar-section{
+    padding: 0px 7rem;
+    
+}
+.navbar-toggler{
+    border:none;
+    background: transparent;
+    outline: none;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.servis{
+    background-color: #0A2640;
+    color: white;
+}
+.navbar-toggler .bi{
+    font-size: 30px;
+    color: white;
+}
+.Blog-d{
+background-color:#65E4A3!important;
+color: #0A2640 !important;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1500px) {
+    .navbar-section{
+        padding: 0px 3rem;
+    }
+  }
+
+@media (max-width: 500px){
+    .navbar-section {
+        padding: 0px 0rem;
+    }
+    .navbar-brand img{
+  width: 100px;
+    }
+}
+
+
+@media (max-width: 900px){
+
+    .navbar-nav{
+        gap: 0px;
+    }
+    .login{
+        width: fit-content;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

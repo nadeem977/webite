@@ -1,0 +1,49 @@
+.mycard{
+    border-radius: 5px;
+    padding:2rem;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    color: black;
+    min-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.text-p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.title p{
+    margin: 0;
+}
+.title>:nth-child(1){
+    font-weight: bold;
+    color: #0A2640;
+    font-size:17px;
+}
+.title>:nth-child(2){
+    color: #0A2640;
+    font-size:14px;
+}
+.img-text{
+    display: flex;
+    gap: 10px;
+}
+@media (max-width:1200px) {
+    .text-p {
+        font-size: 18px;
+        line-height: 27px;
+      }
+      .mycard{
+        min-width: 330px;
+      }
+}
+
+@media (max-width:400px) {
+    .sliders-section{
+padding: 1rem;
+    }
+}

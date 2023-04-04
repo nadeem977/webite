@@ -1,0 +1,440 @@
+.about-header {
+  background-color: #0a2640;
+  color: white;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.abou-context-div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+.abou-context-div h1 {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 84px;
+  color: #ffffff;
+}
+.abou-context-div p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #f1f1f1;
+}
+.images-main-div {
+  width: 100%;
+  position: absolute;
+  top: 60%;
+}
+.heit-div {
+  height: 600px;
+}
+.image-div {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+}
+.img-two {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.bout-text-dec-div {
+  width: 60%;
+  margin: 1rem auto;
+  padding: 2rem;
+}
+.bout-text-dec-div p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
+  margin: 3rem auto;
+}
+.bout-text-dec-div h1 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.our-numbers {
+  width: 100%;
+  background-color: #0a2640;
+  color: white;
+}
+.boxs-div {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  gap: 20px;
+  margin: 2rem auto;
+}
+.main-our-div {
+  width: 80%;
+  margin: 0 auto;
+  padding: 3rem;
+}
+.boxs h1 {
+  font-weight: 400;
+  font-size: 76px;
+  line-height: 56px;
+  color: #4fe9a4;
+}
+.boxs p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #f1f1f1;
+  margin-top: 30px;
+}
+.text-our {
+  text-align: center;
+}
+.text-our h1 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  color: #ffffff;
+}
+.cards-main-div {
+  display: flex;
+  justify-content: space-between;
+}
+.leadership-team-main-div {
+  width: 80%;
+  margin: 3rem auto;
+}
+.team-text {
+  width: 80%;
+  margin: 1rem auto;
+}
+.team-text p {
+  width: 70%;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
+}
+.team-text h1 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  color: #000000;
+}
+.card-1 h5 {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+  color: #000000;
+}
+.card-1 p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
+}
+.things-main-div {
+  background-color: #0a2640;
+  color: white;
+  padding: 4rem;
+}
+.text-things {
+  width: 60%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.main-cards-div {
+  width: 60%;
+  margin: 1rem auto;
+}
+.cards-we {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  margin: 2rem 20px;
+}
+.text-we h5 {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.text-we p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #f1f1f1;
+  width: 70%;
+}
+.sect-bbenr {
+  margin: 8rem auto;
+}
+@media (max-width: 1500px) {
+  .about-header {
+    height: 500px;
+  }
+  .images-main-div {
+    top: 80%;
+  }
+  .images-main-div img {
+    width: 80%;
+  }
+  .main-cards-div {
+    width: 85%;
+    margin: 1rem auto;
+  }
+  .text-things {
+    width: 85%;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  .bout-text-dec-div {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .heit-div {
+    height: 400px;
+  }
+
+  .bout-text-dec-div {
+    width: 90%;
+    margin: 1rem auto;
+    padding: 2rem;
+  }
+  .cards-main-div {
+    padding: 0px;
+  }
+  .bout-text-dec-div h1 {
+    font-size: 28px;
+    line-height: 45px;
+  }
+  .bout-text-dec-div p {
+    font-size: 17px;
+    line-height: 29px;
+    margin: 1rem auto;
+  }
+  .text-our h1 {
+    font-size: 28px;
+    line-height: 50px;
+  }
+  .boxs h1 {
+    font-size: 39px;
+    line-height: 19px;
+  }
+  .boxs p {
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 30px;
+  }
+  .team-text {
+    width: 100%;
+    margin: 1rem auto;
+  }
+  .team-text h1 {
+    font-size: 35px;
+    line-height: 48px;
+  }
+  .team-text p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+  }
+  .main-cards-div {
+    width: 100%;
+    margin: 1rem auto;
+  }
+  .text-things {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+}
+@media (max-width: 990px) {
+  .abou-context-div h1 {
+    font-size: 28px;
+    line-height: 43px;
+  }
+  .about-header {
+    height: 386px;
+  }
+  .images-main-div {
+    top: 50%;
+  }
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 883px;
+  }
+}
+@media (max-width: 800px) {
+  .leadership-team-main-div {
+    width: 100%;
+    padding: 2rem;
+  }
+  .card-1 img {
+    width: 80%;
+  }
+  .card-1 {
+    width: 250px;
+  }
+  .card-1 p {
+    font-size: 17px;
+    line-height: 0px;
+    width: fit-content;
+  }
+  .leadership-team-main-div {
+    padding: 1rem;
+  }
+  .card-1 h5 {
+    margin-top: 8px;
+    font-size: 20px;
+    line-height: 33px;
+    width: fit-content;
+  }
+}
+@media (max-width: 600px) {
+  .heit-div {
+    height: 245px;
+  }
+  .bout-text-dec-div h1 {
+    font-size: 20px;
+    line-height: 33px;
+  }
+  .bout-text-dec-div p {
+    font-size: 14px;
+  }
+  .main-our-div {
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  .text-our h1 {
+    font-size: 22px;
+    line-height: 34px;
+  }
+  .leadership-team-main-div {
+    width: 100%;
+    padding: 2rem;
+    margin: 3rem auto;
+  }
+  .team-text p {
+    width: 100%;
+    font-size: 18px;
+  }
+  .card-1 img {
+    width: 80%;
+  }
+  .card-1 {
+    width: 200px;
+  }
+  .card-1 p {
+    font-size: 17px;
+    line-height: 0px;
+    width: fit-content;
+  }
+  .leadership-team-main-div {
+    padding: 1rem;
+  }
+  .card-1 h5 {
+    margin-top: 8px;
+    font-size: 20px;
+    line-height: 33px;
+    width: fit-content;
+    margin: 0;
+  }
+  .boxs h1 {
+    font-size: 25px;
+    line-height: 19px;
+  }
+  .text-our h1 {
+    font-size: 15px;
+    line-height: 23px;
+  }
+  .boxs-div {
+    width: 100%;
+    margin: 1rem auto;
+  }
+  .bout-text-dec-div {
+    width: 100%;
+    margin: 1rem auto;
+    padding: 1rem;
+  }
+  .sect-bbenr {
+    margin: 0rem auto;
+}
+}
+@media (max-width: 470px) {
+  .card-1 {
+    width: 160px;
+  }
+  .images-main-div {
+    top: 60%;
+  }
+  .main-our-div {
+    padding: 1rem;
+}
+  .about-header {
+    height: 350px;
+}
+.boxs h1 {
+  text-align: center;
+}
+.leadership-team-main-div {
+  margin: 0rem auto;
+}
+.boxs p {
+  font-size: 11px;
+  line-height: 16px;
+}
+  .abou-context-div p {
+    font-size: 14px;
+  }
+  .abou-context-div h1 {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .things-main-div {
+    padding: 0rem;
+}
+.text-we p {
+  font-weight: 400;
+  font-size: 15px;
+  width: 100%;
+}
+.cards-we {
+  display: flex;
+  align-items:baseline;
+  flex-direction: column;
+  gap: 20px;
+  margin: 2rem 20px;
+}
+p {
+  font-size: 15px;
+  font-weight: 400;
+}
+.form-input{
+  flex-direction: column;
+  align-items: center;
+}
+.Bnanner-div{
+  padding: 2rem;
+}
+.heit-div {
+  height: 100px;
+}
+}

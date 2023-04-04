@@ -1,0 +1,88 @@
+.main-catogary-div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.main-div {
+  width: 80%;
+  margin: 1rem auto;
+}
+.blog-div {
+  width: 300px;
+  margin: 10px;
+}
+.logo-name {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.logo-name h6 {
+  font-size: 14px;
+  margin: 0;
+}
+.text-dec {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+}
+.spn-text {
+  font-weight: 400;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.spn-text > :nth-child(1) {
+  color: #0a2640;
+  margin: 0;
+  font-weight: 600;
+  font-size: 15px;
+}
+.text-div-ctry {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  color: #000000;
+  margin: 2rem auto;
+}
+.text-div-ctry p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
+}
+.btn-load{
+padding: 16px 56px;
+border: 2px solid #0A2640;
+border-radius: 56px;
+transition: all 0.4s;
+}
+.btn-load:hover{
+    background-color: #0a2640;
+    color: white;
+}
+@media (max-width: 1500px) {
+  .main-div {
+    width: 100%;
+    padding: 3rem;
+    margin: 0rem auto;
+  }
+}
+@media (max-width: 1200px) {
+  .blog-div {
+    width: 300px;
+    margin: 20px auto;
+}
+}
+
+@media (max-width: 400px){
+  .main-div{
+padding: 1rem;
+  }
+  .btn-load{
+    padding: 10px 20px;
+  }
+}

@@ -1,0 +1,109 @@
+.text-serv {
+  text-align: center;
+  padding: 3rem;
+  color: #0a2640;
+}
+.text-serv h1 {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 84px;
+  text-align: center;
+  color: #0a2640;
+}
+.servs-main-div {
+  border-bottom: 1px solid #0a2640;
+  padding: 4rem 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.servs-main-div h1 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  color: #000000;
+}
+.spn-ser {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.spn-ser p {
+  margin: 0px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #0a2640;
+}
+.cards-main-serv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 3rem;
+  max-width: 1400px;
+  margin:auto;
+}
+.spn-de {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.spn-de p {
+  margin: 0px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #0a2640;
+}
+.spn-de  small{
+ font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #777777;
+}
+.card-serv{
+    width:300px;
+    height: 430px;
+    margin: 10px auto;
+}
+.banner-serv{
+margin: 3rem auto;
+}
+
+
+@media (max-width:1200px) {
+  .servs-main-div{
+   display: flex;
+   flex-direction: column;
+   padding: 1rem;
+  }
+}
+
+@media (max-width:600px){
+  .text-serv h1 {
+    font-size: 25px;
+    line-height: 0px;
+}
+.servs-main-div>:nth-child(1){
+  width:100%;
+}
+.servs-main-div h1 {
+  font-size: 26px;
+  line-height: 37px;
+}
+.text-serv{
+  padding: 1rem;
+}
+.card-serv{
+  width:90%;
+  height: auto;
+  margin: auto;
+}
+.card-serv>:nth-child(1){
+  width:100%;
+}
+.cards-main-serv{
+  padding: 0px;
+}
+}
